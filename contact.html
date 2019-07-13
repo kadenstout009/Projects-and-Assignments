@@ -25,5 +25,69 @@
                 <td>456-789-1234</td>
             </tr>
         </table>
+        <section>
+            <form action="https://www.myawesomeprofile.com/more-info-request" 
+            method="POST" class="request-info">
+                <div class="input-fields">
+                    <label for="full-name">Enter your name:</label>
+                    <input type="text" name="full-name" id="full-name" required>
+                </div>
+
+                <div class="input-fields">
+                    <label for="email-address">Email:</label>
+                    <input type="email" name="email-address" id="email-address" required>
+                </div>
+
+                <div class="input-fields">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" 
+                    pattern="(0-9){3}-(0-9){3}-(0-9){4}">
+                </div>
+
+                <div class="input-fields">
+                    <label for="comments">Commentss/Questions</label>
+                    <textarea name="comments" id="comments" rows="5" cols="33">
+                
+                    </textarea>
+                </div>
+                <div class="input-fields">
+                    <!-- demo input types-->
+                    <input type="password" >
+                    <input type="date">
+                    <input type="time">
+                    <input type="number">
+                    <input type="range" min="0" max="10">
+                    <input type="url" >
+                    <input type="search" name="google">
+                    <br>
+                    <input type="checkbox" name="option1" value="BSCS">BSCS Info
+                    <br>
+                    <input type="checkbox" name="option2" value="BSWD">BSWD Info
+                    <br>
+                    <input type="checkbox" name="option3" value="BSGD">BSGD Info
+                    <br>
+                    <input type="radio" name="school-status" value="highschool">In High School 
+                    <br>
+                    <input type="radio" name="school-status" value="college">Some College
+                    <br>
+                    <input type="radio" name="school-status" value="none">None 
+                    <br>
+                    <select name="cars">
+                        <option value="mustang">Mustang</option>
+                        <option value="camaro">Camaro</option>
+                        <option value="Pt Cruiser">Pt Cruiser</option>
+                    </select>
+                    <br>
+                    <input type="reset">
+
+                </div>
+
+                <div class="input-fields">
+                    <input type="submit" value="Submit">
+                </div>
+
+        
+            </form>
+        </section>
     </body>
 </html>
