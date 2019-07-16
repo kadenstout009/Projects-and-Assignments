@@ -1,0 +1,15 @@
+h1 {
+    color: darkcyan;
+}
+
+h2 {color: darkslategray;
+}
+
+h4 {color: gray;
+}
+
+.common-header-style {
+    font-family:'Courier New', Courier, monospace;
+}
+
+
