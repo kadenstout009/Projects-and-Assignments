@@ -34,3 +34,13 @@ text-decoration: none;
 ul li a:hover {
 background-color: #111;
 }
+
+div[title] {
+    border: 1px solid black;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+div[title="Kaden-info"] {
+    background-color: beige;
+}
