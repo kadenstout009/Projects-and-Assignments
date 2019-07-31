@@ -11,7 +11,7 @@ image-places {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 * {
-    background-color: lightblue;
+    background-color: lightgray;
     color: rgba(0, 0, 0, 0.623);
 }
 ul#main-nav {
@@ -41,4 +41,7 @@ ul li a:hover {
     position: fixed static;
     text-align: center;
     display: inline-block;
+    border: 2px solid darkslategray;
+    padding: 5px 5px;
+    margin: 3px 2px;
 }
